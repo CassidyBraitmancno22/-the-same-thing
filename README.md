@@ -1,0 +1,2 @@
+# -the-same-thing
+MsgBox( 0, "URL", $string) ;Tell us what's in the clipboard in a messagebox. $string2 = $string ;Copy String verable to string2 to compaire it later.  ;Testing to see if our clipboard text is new or old. Do; Do the following... $string = ClipGet() ;Copy the text in the clipboard to a varable. Sleep( 2000 ) ;Do nothing for 2 seconds. Until Not $string == $string2 ;...until string no longer equals the same thing.  WEnd ;End of runtime loop
